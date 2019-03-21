@@ -1,3 +1,1 @@
-FROM busybox:latest
-RUN echo "hello"
-CMD ["/bin/sh"]
+FROM gcr.io/kubernetes-helm/tiller:v2.13.0
